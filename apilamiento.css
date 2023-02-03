@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.phone{
+    position: relative;
+    border: 8px solid #000;
+    border-radius: 40px;
+    height: 600px;
+    width: 300px;
+    margin-top: 30px;
+    background: #ccefff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.8), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.layer-1{
+    position: absolute;
+    z-index: 1;
+    height: 450px;
+    width: 80px;
+    background: white;
+    bottom: 0;
+    right: 60px;
+}
+.layer-2{
+    position: absolute;
+    z-index: 2;
+    height: 450px;
+    width: 80px;
+    background: white;
+    bottom: 0;
+    left: 60px;
+}
+.layer-3{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 220px;
+    height: 400px;
+    background: #b96c4d;
+    bottom: 0;
+    border-radius: 15px;
+}
+.layer-4{
+    position: absolute;
+    z-index: 4;
+    height: 350px;
+    width: 80px;
+    background: white;
+    bottom: 0;
+    left: 15px;
+    border-radius: 15px;
+}
+.layer-5{
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    width: 220px;
+    height: 300px;
+    border: 1px solid #000;
+    background: #b96c4d;
+    bottom: 0;
+    border-radius: 15px;
+}
+.layer-6{
+    position: absolute;
+    z-index: 6;
+    height: 270px;
+    width: 80px;
+    background: white;
+    bottom: 0;
+    right: 35px;
+    border-radius: 15px;
+}
+.layer-7{
+    position: absolute;
+    z-index: 7;
+    right: 0;    
+    width: 150px;
+    height: 220px;
+    border: 1px solid #000;
+    background: #b96c4d;
+    bottom: 0;
+    border-radius: 15px;
+}
+.layer-8{
+    position: absolute;
+    z-index: 8;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background:#ffffff;
+    bottom: 0;
+    border-radius: 35% 35% 35% 30px;
+    
+}
+.layer-9{
+    position: absolute;
+    z-index: 9;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background: rgb(7, 100, 7);
+    bottom: 0;
+    border-radius: 50%;
+}
+.layer-10{
+    position: absolute;
+    z-index: 10;
+    right:  0;
+    width: 100px;
+    height: 100px;
+    background:#ffffff;
+    bottom: 0;
+    border-radius: 35% 35% 30px 30px;
+}
