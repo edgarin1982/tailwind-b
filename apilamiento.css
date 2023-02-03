@@ -122,3 +122,21 @@ body{
     bottom: 0;
     border-radius: 35% 35% 30px 30px;
 }
+.left--ear--outer{
+    background: beige;
+    border-radius: 90%;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+}
+.left--ear--inner{
+    background: pink;
+    border-radius: 90%;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    
+}
